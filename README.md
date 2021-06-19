@@ -22,6 +22,10 @@ Note: Accuracy is evaluated on the ImageNet2012 validation set.
 See ImageNet training [logs](https://tensorboard.dev/experiment/AU4DxhjnRBieaPsgCWGxng/#scalars) at Tensorboard.dev.
 
 
+## Colab
+
+Colab is available for test: https://github.com/google-research/nested-transformer/blob/main/colab.ipynb
+
 
 ## Instruction on Image Classification
 
