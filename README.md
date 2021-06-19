@@ -24,7 +24,7 @@ See ImageNet training [logs](https://tensorboard.dev/experiment/AU4DxhjnRBieaPsg
 
 ## Colab
 
-Colab is available for test: https://github.com/google-research/nested-transformer/blob/main/colab.ipynb
+Colab is available for test: https://colab.sandbox.google.com/github/google-research/nested-transformer/blob/main/colab.ipynb
 
 
 ## Instruction on Image Classification
