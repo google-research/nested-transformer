@@ -1,4 +1,4 @@
-# [Aggragrating Nested Transformer](https://arxiv.org/pdf/2105.12723.pdf) Official Jax Implementation
+# [Aggregating Nested Transformer](https://arxiv.org/pdf/2105.12723.pdf) Official Jax Implementation
 
 NesT is a simple method, which aggragrates nested local transformers on image blocks. The idea makes vision transformers attain better accuracy, data efficiency, and convergence on the ImageNet benchmark. NesT can be scaled to small datasets to match convnet accuracy.
 
