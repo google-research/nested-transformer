@@ -5,7 +5,6 @@ NesT is a simple method, which aggregates nested local transformers on image blo
 This is not an officially supported Google product.
 
 
-
 ## Pretrained Models and Results
 
 
@@ -17,6 +16,7 @@ This is not an officially supported Google product.
 
 Note: Accuracy is evaluated on the ImageNet2012 validation set.
 
+
 #### Tensorbord.dev
 
 See ImageNet training [logs](https://tensorboard.dev/experiment/AU4DxhjnRBieaPsgCWGxng/#scalars) at Tensorboard.dev.
@@ -25,6 +25,10 @@ See ImageNet training [logs](https://tensorboard.dev/experiment/AU4DxhjnRBieaPsg
 ## Colab
 
 Colab is available for test: https://colab.sandbox.google.com/github/google-research/nested-transformer/blob/main/colab.ipynb
+
+
+## Pytorch re-implementation
+The timm library has incorporated [NesT and pre-trained models](https://github.com/rwightman/pytorch-image-models/blob/master/timm/models/nest.py) in Pytorch. 
 
 
 ## Instruction on Image Classification
@@ -82,7 +86,6 @@ paper is trained using TPU with 1024 total batch size.
 # Recommend to train on 2 GPUs. Training NesT-T can use 1 GPU.
 CUDA_VISIBLE_DEVICES=0,1 python  main.py --config configs/cifar_nest.py --workdir="./checkpoints/nest_cifar"
 ```
-
 
 ## Cite
 
