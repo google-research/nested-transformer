@@ -1,4 +1,4 @@
-# [Aggregating Nested Transformer](https://arxiv.org/pdf/2105.12723.pdf) Official Jax Implementation
+# [Nested Hierarchical Transformer](https://arxiv.org/pdf/2105.12723.pdf) Official Jax Implementation
 
 NesT is a simple method, which aggregates nested local transformers on image blocks. The idea makes vision transformers attain better accuracy, data efficiency, and convergence on the ImageNet benchmark. NesT can be scaled to small datasets to match convnet accuracy.
 
@@ -91,10 +91,10 @@ CUDA_VISIBLE_DEVICES=0,1 python  main.py --config configs/cifar_nest.py --workdi
 
 ```
 @inproceedings{zhang2021aggregating,
-  title={Aggregating Nested Transformers},
-  author={Zizhao Zhang and Han Zhang and Long Zhao and Ting Chen and Tomas Pfister},
-  booktitle={arXiv preprint arXiv:2105.12723},
-  year={2021}
+  title={Nested Hierarchical Transformer: Towards Accurate, Data-Efficient and Interpretable Visual Understanding},
+  author={Zizhao Zhang and Han Zhang and Long Zhao and Ting Chen and and Sercan Ö. Arık and Tomas Pfister},
+  booktitle={AAAI Conference on Artificial Intelligence (AAAI)},
+  year={2022}
 }
 ```
 
