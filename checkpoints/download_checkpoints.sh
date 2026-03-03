@@ -15,6 +15,6 @@
 # ==============================================================================
 #!/bin/bash
 
-gsutil -m cp -R gs://gresearch/nest-checkpoints/* ./checkpoints/
+gcloud storage cp --recursive gs://gresearch/nest-checkpoints/* ./checkpoints/
 
 echo "All checkpoints are downloaded"
